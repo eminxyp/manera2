@@ -30,7 +30,7 @@
   --davys-gray: hsl(0, 0%, 33%);
   --field-drab: hsl(47, 98%, 22%);
   --red-crayola: hsl(356, 73%, 58%);
-  --golden-puppy: hsl(47, 100%, 49%);
+  --golden-puppy: hsl(0, 91%, 65%);
   --quick-silver: hsl(0, 0%, 63%);
   --sonic-silver: hsl(0, 0%, 44%);
   --eerie-black-1: hsl(0, 0%, 15%);
@@ -180,7 +180,7 @@ button, a, input, [tabindex] { outline-offset: 4px; }
   color: var(--black);
 }
 
-.btn-primary:is(:hover, :focus) { --golden-puppy: hsl(47, 100%, 45%); }
+.btn-primary:is(:hover, :focus) { --golden-puppy: hsl(0, 100%, 75%); }
 
 .btn-secondary:is(:hover, :focus) { background: hsla(47, 100%, 45%, 0.1); }
 
